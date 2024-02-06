@@ -1,5 +1,12 @@
-import Link from 'next/link';
-
+import Image from 'next/image';
+import homeImg from 'public/home.jpg'
 export default function Home() {
-  return (<div>Home Page</div>);
+  return (
+  <div>
+    Home Page
+    <Image
+      src={homeImg}
+      alt="car factory" />
+
+  </div>);
 }
